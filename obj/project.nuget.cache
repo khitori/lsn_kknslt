@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GWBq6V8FNnQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uhequ\\.nuget\\packages\\fsharp.core\\9.0.300\\fsharp.core.9.0.300.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\nativelibrarymanager\\1.0.23\\nativelibrarymanager.1.0.23.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\portaudiosharp\\0.3.0\\portaudiosharp.0.3.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\sharphook\\6.2.0\\sharphook.6.2.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\sharphook.reactive\\6.2.0\\sharphook.reactive.6.2.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

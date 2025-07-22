@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
+        "projectName": "lsn",
+        "projectPath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
+        "packagesPath": "C:\\Users\\uhequ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\uhequ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\9.0.302\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.300, )",
+              "generatePathProperty": true
+            },
+            "PortAudioSharp": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "SharpHook": {
+              "target": "Package",
+              "version": "[6.2.0, )",
+              "generatePathProperty": true
+            },
+            "SharpHook.Reactive": {
+              "target": "Package",
+              "version": "[6.2.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

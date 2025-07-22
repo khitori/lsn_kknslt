@@ -1,0 +1,185 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "lsn/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "9.0.300",
+          "SharpHook": "6.2.0",
+          "SharpHook.Reactive": "6.2.0"
+        },
+        "runtime": {
+          "lsn.dll": {}
+        }
+      },
+      "FSharp.Core/9.0.300": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.3.25.22803"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "SharpHook/6.2.0": {
+        "runtime": {
+          "lib/net9.0/SharpHook.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libuiohook.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libuiohook.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst-arm64/native/libuiohook.dylib": {
+            "rid": "maccatalyst-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst-x64/native/libuiohook.dylib": {
+            "rid": "maccatalyst-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libuiohook.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libuiohook.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/uiohook.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/uiohook.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/uiohook.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SharpHook.Reactive/6.2.0": {
+        "dependencies": {
+          "SharpHook": "6.2.0",
+          "System.Reactive": "6.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/SharpHook.Reactive.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "System.Reactive/6.0.1": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.7420"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lsn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharp.Core/9.0.300": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ZDoF/N7WPidmaflrTnPucUJfaV5XkIHCh4h77yET7ihuv2dR2ksSsIiiDd34Z9YmwyYEQocpDl1r6RXFr0DMg==",
+      "path": "fsharp.core/9.0.300",
+      "hashPath": "fsharp.core.9.0.300.nupkg.sha512"
+    },
+    "SharpHook/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mRzpiAQ0ks6Z2lM3SWSOGBYYWwVwUJ+M6HbgQqCGO+4lxo5MulBrAlceGlJOdTWs5OmrVYV/W9BKtKQ/pOGnhg==",
+      "path": "sharphook/6.2.0",
+      "hashPath": "sharphook.6.2.0.nupkg.sha512"
+    },
+    "SharpHook.Reactive/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-roEcEBFlv3UJNfzPua6+O6QdZ3LL+W9DNa48YKPC6NR3hqod5fe3G0U3cUgOaJFWoho6KoEYjOAcj7V/9+MctQ==",
+      "path": "sharphook.reactive/6.2.0",
+      "hashPath": "sharphook.reactive.6.2.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg==",
+      "path": "system.reactive/6.0.1",
+      "hashPath": "system.reactive.6.0.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "FSharp.Core/9.0.300": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NativeLibraryManager/1.0.23": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/NativeLibraryManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NativeLibraryManager.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PortAudioSharp/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NativeLibraryManager": "1.0.23"
+        },
+        "compile": {
+          "lib/netstandard2.0/PortAudioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PortAudioSharp.dll": {}
+        }
+      },
+      "SharpHook/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/maccatalyst-arm64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SharpHook.Reactive/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpHook": "6.2.0",
+          "System.Reactive": "6.0.1"
+        },
+        "compile": {
+          "lib/net9.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/9.0.300": {
+      "sha512": "2ZDoF/N7WPidmaflrTnPucUJfaV5XkIHCh4h77yET7ihuv2dR2ksSsIiiDd34Z9YmwyYEQocpDl1r6RXFr0DMg==",
+      "type": "package",
+      "path": "fsharp.core/9.0.300",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.9.0.300.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "sha512": "JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "NativeLibraryManager/1.0.23": {
+      "sha512": "QINOsTAY2nN+PW8Lomg0VKEQjN72dqqZ1fTfGyIi1skbSzLMQJOrzH5bBq3b2NCeOhKUjYkXS7ByBtvulmMmTQ==",
+      "type": "package",
+      "path": "nativelibrarymanager/1.0.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NativeLibraryManager.dll",
+        "lib/netstandard2.0/NativeLibraryManager.xml",
+        "nativelibrarymanager.1.0.23.nupkg.sha512",
+        "nativelibrarymanager.nuspec"
+      ]
+    },
+    "PortAudioSharp/0.3.0": {
+      "sha512": "9hEuEu8CKX0dcmzj26NU+wba5CkSnMpG1qX6/iarlf9gQVC+3ffE41LDLsne3H/Ki17XGNOry4D1ly/FCg2KPw==",
+      "type": "package",
+      "path": "portaudiosharp/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PortAudioSharp.dll",
+        "portaudiosharp.0.3.0.nupkg.sha512",
+        "portaudiosharp.nuspec"
+      ]
+    },
+    "SharpHook/6.2.0": {
+      "sha512": "mRzpiAQ0ks6Z2lM3SWSOGBYYWwVwUJ+M6HbgQqCGO+4lxo5MulBrAlceGlJOdTWs5OmrVYV/W9BKtKQ/pOGnhg==",
+      "type": "package",
+      "path": "sharphook/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net462/SharpHook.targets",
+        "icon.png",
+        "lib/net472/SharpHook.dll",
+        "lib/net472/SharpHook.xml",
+        "lib/net8.0-maccatalyst18.0/SharpHook.dll",
+        "lib/net8.0-maccatalyst18.0/SharpHook.xml",
+        "lib/net8.0/SharpHook.dll",
+        "lib/net8.0/SharpHook.xml",
+        "lib/net9.0-maccatalyst18.0/SharpHook.dll",
+        "lib/net9.0-maccatalyst18.0/SharpHook.xml",
+        "lib/net9.0/SharpHook.dll",
+        "lib/net9.0/SharpHook.xml",
+        "lib/netstandard2.0/SharpHook.dll",
+        "lib/netstandard2.0/SharpHook.xml",
+        "runtimes/linux-arm/native/libuiohook.so",
+        "runtimes/linux-arm64/native/libuiohook.so",
+        "runtimes/linux-x64/native/libuiohook.so",
+        "runtimes/maccatalyst-arm64/native/libuiohook.dylib",
+        "runtimes/maccatalyst-x64/native/libuiohook.dylib",
+        "runtimes/osx-arm64/native/libuiohook.dylib",
+        "runtimes/osx-x64/native/libuiohook.dylib",
+        "runtimes/win-arm64/native/uiohook.dll",
+        "runtimes/win-x64/native/uiohook.dll",
+        "runtimes/win-x86/native/uiohook.dll",
+        "sharphook.6.2.0.nupkg.sha512",
+        "sharphook.nuspec"
+      ]
+    },
+    "SharpHook.Reactive/6.2.0": {
+      "sha512": "roEcEBFlv3UJNfzPua6+O6QdZ3LL+W9DNa48YKPC6NR3hqod5fe3G0U3cUgOaJFWoho6KoEYjOAcj7V/9+MctQ==",
+      "type": "package",
+      "path": "sharphook.reactive/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net472/SharpHook.Reactive.dll",
+        "lib/net472/SharpHook.Reactive.xml",
+        "lib/net8.0-maccatalyst18.0/SharpHook.Reactive.dll",
+        "lib/net8.0-maccatalyst18.0/SharpHook.Reactive.xml",
+        "lib/net8.0/SharpHook.Reactive.dll",
+        "lib/net8.0/SharpHook.Reactive.xml",
+        "lib/net9.0-maccatalyst18.0/SharpHook.Reactive.dll",
+        "lib/net9.0-maccatalyst18.0/SharpHook.Reactive.xml",
+        "lib/net9.0/SharpHook.Reactive.dll",
+        "lib/net9.0/SharpHook.Reactive.xml",
+        "lib/netstandard2.0/SharpHook.Reactive.dll",
+        "lib/netstandard2.0/SharpHook.Reactive.xml",
+        "sharphook.reactive.6.2.0.nupkg.sha512",
+        "sharphook.reactive.nuspec"
+      ]
+    },
+    "System.Reactive/6.0.1": {
+      "sha512": "rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg==",
+      "type": "package",
+      "path": "system.reactive/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.1.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "FSharp.Core >= 9.0.300",
+      "PortAudioSharp >= 0.3.0",
+      "SharpHook >= 6.2.0",
+      "SharpHook.Reactive >= 6.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\uhequ\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
+      "projectName": "lsn",
+      "projectPath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
+      "packagesPath": "C:\\Users\\uhequ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\uhequ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\sdk\\9.0.302\\FSharp\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "FSharp.Core": {
+            "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[9.0.300, )",
+            "generatePathProperty": true
+          },
+          "PortAudioSharp": {
+            "target": "Package",
+            "version": "[0.3.0, )"
+          },
+          "SharpHook": {
+            "target": "Package",
+            "version": "[6.2.0, )",
+            "generatePathProperty": true
+          },
+          "SharpHook.Reactive": {
+            "target": "Package",
+            "version": "[6.2.0, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
