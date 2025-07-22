@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "GWBq6V8FNnQ=",
+  "dgSpecHash": "RzPFW0L9Kq0=",
   "success": true,
   "projectFilePath": "C:\\Users\\uhequ\\Desktop\\s\\lsn\\lsn.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\uhequ\\.nuget\\packages\\fsharp.core\\9.0.300\\fsharp.core.9.0.300.nupkg.sha512",
-    "C:\\Users\\uhequ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
-    "C:\\Users\\uhequ\\.nuget\\packages\\nativelibrarymanager\\1.0.23\\nativelibrarymanager.1.0.23.nupkg.sha512",
-    "C:\\Users\\uhequ\\.nuget\\packages\\portaudiosharp\\0.3.0\\portaudiosharp.0.3.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
     "C:\\Users\\uhequ\\.nuget\\packages\\sharphook\\6.2.0\\sharphook.6.2.0.nupkg.sha512",
     "C:\\Users\\uhequ\\.nuget\\packages\\sharphook.reactive\\6.2.0\\sharphook.reactive.6.2.0.nupkg.sha512",
-    "C:\\Users\\uhequ\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+    "C:\\Users\\uhequ\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\uhequ\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

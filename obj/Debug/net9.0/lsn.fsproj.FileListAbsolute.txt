@@ -40,3 +40,10 @@ C:\Users\uhequ\Desktop\s\lsn\obj\Debug\net9.0\refint\lsn.dll
 C:\Users\uhequ\Desktop\s\lsn\obj\Debug\net9.0\lsn.pdb
 C:\Users\uhequ\Desktop\s\lsn\obj\Debug\net9.0\lsn.genruntimeconfig.cache
 C:\Users\uhequ\Desktop\s\lsn\obj\Debug\net9.0\ref\lsn.dll
+C:\Users\uhequ\Desktop\s\lsn\obj\Debug\net9.0\lsn.sourcelink.json
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.dll
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.Asio.dll
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.Core.dll
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.Midi.dll
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.Wasapi.dll
+C:\Users\uhequ\Desktop\s\lsn\bin\Debug\net9.0\NAudio.WinMM.dll

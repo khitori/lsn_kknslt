@@ -46,9 +46,10 @@
               "version": "[9.0.300, )",
               "generatePathProperty": true
             },
-            "PortAudioSharp": {
+            "NAudio": {
               "target": "Package",
-              "version": "[0.3.0, )"
+              "version": "[2.2.1, )",
+              "generatePathProperty": true
             },
             "SharpHook": {
               "target": "Package",

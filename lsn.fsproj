@@ -10,6 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="1.wav" />
+    <EmbeddedResource Include="2.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
     <PackageReference Include="SharpHook" Version="6.2.0" />
     <PackageReference Include="SharpHook.Reactive" Version="6.2.0" />
   </ItemGroup>

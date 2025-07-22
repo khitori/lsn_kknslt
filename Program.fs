@@ -1,6 +1,43 @@
 ﻿open System
 open System.IO
 open System.Runtime.InteropServices
+open NAudio
+open System.Reflection
+open NAudio.Wave
+
+
+
+let assembly = Assembly.GetExecutingAssembly()
+
+let soundData =
+    [ "1.wav"; "2.wav" ]
+    |> List.map (fun name ->
+        let fullName =
+            assembly.GetManifestResourceNames()
+            |> Array.find (fun n -> n.EndsWith(name))
+        use stream = assembly.GetManifestResourceStream(fullName)
+        use ms = new IO.MemoryStream()
+        stream.CopyTo(ms)
+        name, ms.ToArray()
+    )
+    |> dict
+
+let mixer = new Wave.WaveMixerStream32()
+mixer.AutoStop <- false
+
+let outputDevice = new Wave.WaveOutEvent()
+outputDevice.Init(mixer)
+outputDevice.Play()
+
+let playSound (resourceName: string) =
+    let bytes = soundData.[resourceName]
+    let ms = new IO.MemoryStream(bytes)
+    let reader = new WaveFileReader(ms)
+    let channel = new WaveChannel32(reader)
+    mixer.AddInputStream(channel)
+
+
+
 
 module NativeMethods =
     [<DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)>]
@@ -27,6 +64,7 @@ let hookCallback (nCode: int) (wParam: IntPtr) (lParam: IntPtr) : IntPtr =
     if nCode >= 0 && wParam = IntPtr(WM_KEYDOWN) then
         let vkCode = Marshal.ReadInt32(lParam)
         printfn "Key: %A" (enum<ConsoleKey> vkCode)
+        playSound "1.wav"
     NativeMethods.CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam)
 let setHook (proc: LowLevelKeyboardProc) =
     let hMod = NativeMethods.GetModuleHandle(null)
