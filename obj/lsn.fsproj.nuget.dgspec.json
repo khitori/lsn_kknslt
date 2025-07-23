@@ -50,16 +50,6 @@
               "target": "Package",
               "version": "[2.2.1, )",
               "generatePathProperty": true
-            },
-            "SharpHook": {
-              "target": "Package",
-              "version": "[6.2.0, )",
-              "generatePathProperty": true
-            },
-            "SharpHook.Reactive": {
-              "target": "Package",
-              "version": "[6.2.0, )",
-              "generatePathProperty": true
             }
           },
           "imports": [

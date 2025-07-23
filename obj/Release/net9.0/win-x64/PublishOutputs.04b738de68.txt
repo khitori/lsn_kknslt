@@ -1,0 +1,2 @@
+C:\Users\uhequ\Desktop\s\lsn\bin\Release\net9.0\win-x64\publish\lsn.pdb
+C:\Users\uhequ\Desktop\s\lsn\bin\Release\net9.0\win-x64\publish\lsn.exe
