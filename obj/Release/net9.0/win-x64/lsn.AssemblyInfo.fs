@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("lsn")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Release")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d0d934ff78f79bc58d0495e3757717229156ea6")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550751ba3870aaf43d70dadb093f6a09513df4eb")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("lsn")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("lsn")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

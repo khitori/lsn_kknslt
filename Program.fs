@@ -77,7 +77,7 @@ type LowLevelKeyboardProc = delegate of int * IntPtr * IntPtr -> IntPtr
 let hookCallback (nCode: int) (wParam: IntPtr) (lParam: IntPtr) : IntPtr =
     if nCode >= 0 && wParam = IntPtr WM_KEYDOWN then
         let vkCode = Marshal.ReadInt32 lParam
-        playSound "2.wav"
+        playSound "1.wav"
         printfn "Key: %A" (enum<ConsoleKey> vkCode)
 
     NativeMethods.CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam)
