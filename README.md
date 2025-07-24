@@ -1,4 +1,4 @@
-`publish/` folder already have a compiled version.
+`publish/` folder have an already compiled version.
 
 Command to compile:
 
